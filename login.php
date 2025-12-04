@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-require_once 'mensagem.php';
+require_once 'mensagens.php';
 
 
 // Verificar se o usuário já está logado

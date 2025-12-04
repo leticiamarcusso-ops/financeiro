@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+.mensagem{
+    border: 3px  solid rgb(255, 0, 200);
+    background-color:  rgb(255, 0, 119)
+    
+}
+
+.mensagem-sucesso {
+    border-color:green;
+
+}
+
+.mensagem-erro {
+    border-color: red;
+    background-color: brown;
+    color: white;
+}
+h1{
+    color: ;
+    font-style:italic ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#email{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+div label{
+    color: rgb(191, 0, 255);
+}
+#senha{
+background-color: white;
+    border-radius: 10px;
+}
+ 
+
