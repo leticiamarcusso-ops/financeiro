@@ -1,6 +1,15 @@
 body {
-    background-color: pink;
-    text-align: center;
+text-align: center;
+background-color: aqua;
+background-image: url(https://cdn.awsli.com.br/600x450/1957/1957185/produto/127375608/pantera-cor-de-rosa-30624ad2.jpg);   
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+background-size: cover;
+margin: 0;
+padding: 300px;  
+
+
 }
 
 .mensagem{
@@ -20,22 +29,50 @@ body {
     color: white;
 }
 h1{
-    
+    color: rgb(141, 9, 70);
     font-style:italic ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 #email{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 
 }
 
 div label{
-    color: rgb(191, 0, 255);
+    color: rgb(0, 0, 0);
 }
 #senha{
 background-color: white;
     border-radius: 10px;
 }
- 
+
+button {
+   
+   
+    background-color: #890707;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+button:hover {
+    background-color: #ffad3b;
+
+}
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+p a:hover {
+    text-decoration: underline;
+}
+ a {
+    color: rgb(0, 0, 0);
+ }
 

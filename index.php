@@ -48,7 +48,12 @@ $ultimas_transacoes = $stmt_ultimas->fetchAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Financeiro</title>
+    <link rel="stylesheet" href="style_cat.css">
+
 </head>
+<body>
+ 
+   <?php include 'navbar.php';?>
  <h1>Sistema Financeiro</h1>
 
     <div>
@@ -86,7 +91,7 @@ $ultimas_transacoes = $stmt_ultimas->fetchAll();
      </div>
 
 
-<body>
+
     <h2>Últimas Transações</h2>
     
     <?php if (count($ultimas_transacoes) > 0): ?>

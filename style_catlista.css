@@ -1,0 +1,83 @@
+body {
+   
+    background-color: #f0a9d7;
+    color: var(--cinza-texto);
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    background: #f820ac;    
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 0 15px rgb(169, 18, 18);
+}
+
+/* Títulos */
+h2, h3 {
+    color:rgb(255, 178, 247);
+    font-weight: 700;
+}
+
+/* Botões */
+.btn-primary {
+    background-color:plum;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color:rgb(255, 56, 255)
+}
+
+.btn-success {
+    background-color: rgb(243, 10, 243);
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: rgb(243, 10, 243);
+}
+
+.btn-danger {
+    background-color: rgb(243, 10, 243);
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: rgb(243, 10, 243);
+}
+
+/* Tabela */
+.table {
+    background:pink;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: purple;
+    color: plum;
+}
+
+.table tbody tr:hover {
+    background: plum;
+    color: #ca218f;
+}
+
+/* Navbar (se quiser combinar com o tema) */
+.navbar {
+    background: rgb(255, 94, 148);
+}
+
+.navbar a {
+    color: palevioletred;
+}
+
+.navbar a:hover {
+    color: rgb(238, 175, 224);
+}
+

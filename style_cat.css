@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 114, 234);
+   
+   
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 150px 50px 50px 50px;}
+    h1{
+        color: rgb(255, 10, 181);
+        text-align: center;
+    }
+    h2{
+        color: rgb(255, 10, 181);
+    }
+    h3{
+        color:rgb(255, 10, 181)
+    }
+
+    p{
+        color: rgb(25, 55, 139);
+        font-size: 20px;
+    }
+    a{
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        font-family: initial;
+    }
+    tr{
+        color:rgb(189, 2, 158)
+    }
+    div p{
+        color:rgb(255, 0, 60)
+    }
+    nav{
+        color: black;
+    }
